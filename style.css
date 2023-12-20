@@ -13,15 +13,20 @@ font-family: 'Vesper Libre', serif; */
 
 body{
     background-color: rgb(230, 210, 236);
+    
+}
+h1{
+    background-image: url(./Assets/Images/white\ paper.jpg);
+    
 }
 h1,footer{
-    color: rgb(243, 235, 235);
+    color: rgb(28, 1, 1);
     text-align: center;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #14061d;
+    background-color: #f8f8f8;
     font-weight: 400;
     text-transform:uppercase;
     /* text-decoration: rgb(7, 158, 85) double 1px underline; */
@@ -71,7 +76,7 @@ header{
 
 /* hover extar */
 h1:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(8, 0, 76);
     text-align: center;
     height: 50px;
     display: flex;
@@ -140,6 +145,8 @@ h6{
     font-family: 'Brygada 1918', serif;
 }
 footer{
+    background-color: #110707;
+    color: #f8f8f8;
     position: fixed;
     bottom: 0;
     width: 100%;
