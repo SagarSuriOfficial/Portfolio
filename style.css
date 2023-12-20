@@ -27,7 +27,7 @@ h1,footer{
     /* text-decoration: rgb(7, 158, 85) double 1px underline; */
    font-family: 'Vesper Libre', serif;
     border: 0.5px solid rgb(26, 11, 132);
-    border-radius: 10px;
+    border-radius: 1px;
 }
 main{
     height: 100%;
