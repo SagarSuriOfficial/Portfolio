@@ -130,19 +130,22 @@ h1:hover{
     padding-top: 2px;
     font-weight: 200;
 }
-h6{
+h6{ 
     padding-top: 10px;
     font-size: 12px;
+    
 }
 
 
 .about_detail{
+    text-align: left;
     padding-top: 5px;
     /* font-family: 'Times New Roman', Times, serif; */
     font-size: 18px;
     padding-bottom: 10px;
     font-weight: 400;
     font-family: 'Brygada 1918', serif;
+    text-transform: none;
 }
 footer{
     background-color: #110707;
