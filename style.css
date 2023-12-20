@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
+   
 }
 
 /* font-family: 'Poppins', sans-serif;
@@ -29,6 +29,7 @@ h1,footer{
 }
 main{
     height: 2000px;
+    /* color: #0d0214; */
 }
 
 nav a img {
@@ -55,8 +56,12 @@ nav a {
 }
 
 header{
-    height: 80px;
-    background-color: #9975b8;
+    height: 100%;
+    width: 100%;
+    /* background-color: #9975b8; */
+    background-image: url(./Assets/Images/istockphoto-1204249278-170667a.webp);
+    /* background-repeat: no-repeat; */
+    border: 0.7px solid rgb(0, 1, 67);
     border-radius: 2px;
 }
 
@@ -77,3 +82,49 @@ h1:hover{
     border-radius: 1px;
 }
 
+/* main hero section1 */
+
+.myImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile{
+    background-image: url(./Assets/Images/bgc2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* margin-top: 40px; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 10px;  
+    border: black solid 1px;
+}
+.about{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 15, 15);
+    text-align: center;
+}
+.section_name{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.profession{
+    padding-top: 2px;
+    font-weight: 200;
+}
+h6{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.about_detail{
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
