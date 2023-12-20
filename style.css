@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   
+    box-sizing: border-box;
 }
 
 /* font-family: 'Poppins', sans-serif;
@@ -28,7 +28,7 @@ h1,footer{
     border-radius: 1px;
 }
 main{
-    height: 2000px;
+    height: 100%;
     /* color: #0d0214; */
 }
 
@@ -39,6 +39,8 @@ nav a img {
     border-radius: 50%;
 }
 nav{
+    margin-top: 40px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;   
@@ -47,7 +49,7 @@ nav{
 nav a {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -73,12 +75,12 @@ h1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3e0164;
+    background-color: #6d1367;
     font-weight: 400;
     text-transform:uppercase;
     /* text-decoration: rgb(7, 158, 85) double 1px underline; */
    font-family: 'Vesper Libre', serif;
-    border: 0.5px solid rgb(26, 11, 132);
+    border: 0.5px solid rgb(3, 2, 66);
     border-radius: 1px;
 }
 
@@ -103,7 +105,9 @@ h1:hover{
     border: black solid 1px;
 }
 .about{
+   
     padding: 10px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,4 +131,18 @@ h6{
     padding-top: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    padding-bottom: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+h1{ 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+footer:hover{
+    background-color: #231f22;
 }
