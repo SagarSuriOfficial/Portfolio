@@ -600,6 +600,14 @@ video {
   margin-top: 5%;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -666,6 +674,10 @@ video {
 
 .w-\[50px\] {
   width: 50px;
+}
+
+.w-\[auto\] {
+  width: auto;
 }
 
 .flex-col {
