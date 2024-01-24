@@ -568,16 +568,16 @@ video {
   margin: 1.25rem;
 }
 
-.ml-\[5\%\] {
-  margin-left: 5%;
-}
-
 .mr-20 {
   margin-right: 5rem;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.ml-\[5\%\] {
+  margin-left: 5%;
 }
 
 .mt-\[5\%\] {
@@ -767,12 +767,12 @@ video {
   padding: 0.25rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-3 {
