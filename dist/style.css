@@ -1000,6 +1000,22 @@ video {
     height: 340px;
   }
 
+  .md\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .md\:h-\[280px\] {
+    height: 280px;
+  }
+
+  .md\:h-\[290px\] {
+    height: 290px;
+  }
+
+  .md\:h-\[310px\] {
+    height: 310px;
+  }
+
   .md\:w-\[50\%\] {
     width: 50%;
   }
@@ -1014,6 +1030,14 @@ video {
 
   .md\:w-\[600px\] {
     width: 600px;
+  }
+
+  .md\:w-\[550\] {
+    width: 550;
+  }
+
+  .md\:w-\[590\] {
+    width: 590;
   }
 
   .md\:grid-cols-2 {
