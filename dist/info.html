@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="shortcut icon" href="../Assets/Images/Portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-slate-950 h-[100vh] w-[100%]" style="background-image: linear-gradient(to left, blue, #05bc8f);">
+
+    <!-- fixed home image start there -->
+    <a class="block" href="../index.html"><img class="w-14 h-14 fixed bottom-0 right-0 m-5" src="../Assets/Images/Reload.png" alt="button-image"></a>
+    <!-- fixed home image end there -->
+    
+    <!-- navbar started here -->
+    <div class="bg-slate-800 text-white font-[500] text-2x p-2 rounded-[5]  h-auto" style="background-image: linear-gradient(to right, #2ab108f4, #1523ebf4);">
+        <div class="w-[100%]  flex-col flex items-center justify-between gap-10 md:flex-row">
+
+            <div class="md:w-[50%]">
+                <img class="block w-24 h-24 rounded-full" src="../Assets/Images/PG-logo.png" alt="profile-image">
+            </div>
+            <div class="m-2 md:w-[50%]">
+                <ul class="flex flex-wrap md:flex-nowrap justify-between items-center gap-10">
+                    <li> <a class="text-white pt-1 pb-1 hover:text-black hover:font-bold hover:italic hover:bg-slate-100 hover:rounded-full text-2xl px-3 rounded-xl" href="./portfolio.html" target=""><i title="HOME" class="fa-solid fa-house"></i></a></li>
+
+                    <li> <a class="text-white pt-1 pb-1 hover:text-black hover:font-bold hover:italic hover:bg-slate-100 hover:rounded-full text-2xl px-3 rounded-xl" href="./project.html" target=""><i title="PROJECT" class="fa-solid fa-diagram-project"></i></a></li>
+
+                    <li> <a class="text-white pt-1 pb-1 hover:text-black hover:font-bold hover:italic hover:bg-slate-100 hover:rounded-full text-2xl px-3 rounded-xl" href="./info.html" target=""><i title="PROJECT" class="fa-solid fa-folder-open"></i></a></li>
+
+                    <li> <a class="text-white pt-1 pb-1 hover:text-red-600 hover:font-bold hover:italic hover:bg-slate-100 hover:rounded-full text-2xl px-3 rounded-xl" href="./blog.html" target=""><i title="BLOG" class="fa-brands fa-youtube"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- navbar ends here -->
+
+    <main class="p-2">
+        <!-- tailwind export here -->
+        
+            <h1 class=" text-center text-4xl font-bold mt-2"><i> Fundamental of Javascript</i></h1>
+        <p class="italic text-black text-xl font-semibold">1. <b>Prototype-based Object Orientation :</b>  JavaScript is a prototype-based language, which means that objects can inherit properties and methods directly from other objects. Each object in JavaScript has a prototype object, and when a property or method is accessed on an object, JavaScript will look for it in the object itself and then in its prototype chain until it finds it or reaches the end of the chain.</p>
+
+        <p class="italic text-black text-xl font-semibold"><b>Asynchronous Programming:</b> JavaScript is inherently single-threaded, but it supports asynchronous programming through mechanisms like callbacks, promises, and async/await. Asynchronous operations allow the program to continue executing other tasks while waiting for certain operations (like I/O operations or network requests) to complete, improving responsiveness and efficiency.</p>
+
+        <p class="italic text-black text-xl font-semibold"><b>Closures:</b> A closure is a combination of a function bundled together with references to its surrounding state (the lexical environment). This gives the function access to variables from its parent scope even after the parent function has finished executing. Closures are commonly used to create private variables and to implement callback functions.</p>
+
+        <p class="italic text-black text-xl font-semibold"><b>Scope and Hoisting:</b> JavaScript has function-level scope, meaning that variables declared inside a function are only accessible within that function. However, JavaScript also has lexical scoping, allowing inner functions to access variables from their outer (enclosing) functions. Hoisting is the JavaScript behavior where variable and function declarations are moved to the top of their containing scope during compilation, regardless of where they were declared in the code.</p>
+
+    
+    </main>
+
+    <script src="https://kit.fontawesome.com/25a68331e1.js" crossorigin="anonymous"></script>
+</body>
+</html>
